@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-  // Объявляем переменную типа int для хранения введенного пользователем числа.
   int number;
 
   printf("Введите целое число: ");
@@ -18,12 +17,8 @@ int main() {
    *     - 'isEven' будет равна 1, если число четное.
    *     - 'isEven' будет равна 0, если число нечетное.
    */
-  int isEven = !(number % 2); // 1 если четное, 0 если нечетное
-
-  if (1) {
-    printf("%d\n", isEven);
-    return 0;
-  }
+ int isEven = !(number % 2); // 1 если четное, 0 если нечетное
+  printf("%d\n", isEven);
 
   return 0; 
 }
